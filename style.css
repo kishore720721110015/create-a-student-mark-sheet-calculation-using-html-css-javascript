@@ -1,8 +1,9 @@
 .section{
     max-width:900px;
     margin:20px auto;
-    border:2px solid  black;
+    border:3px solid  black;
     padding:30px;
+    background-color: rgb(241, 241, 208);
 }
 
 .logo{
@@ -16,20 +17,22 @@
     height:80px;
     float:right;
 }
-
-#clg-name{
+.col{
+    color: red;
+}
+#clg{
     text-align: center;
 }
 
-#clg-name h1{
+#clg h1{
     font-size:30px;
 }
 
-#clg-name h5{
+#clg h5{
     font-size:20px;
 }
 
-#clg-name h6{
+#clg h6{
     font-size:15px;
 }
 
@@ -42,7 +45,9 @@
 #row-1 h3,#row-2 h3,#row-3 h3{
     font-size: 18px;
 }
-
+#row-2{
+    margin-top: 6px;
+}
 #row-1 p,#row-2 p,#row-3 p{
     font-size: 18px;
     padding-bottom:0px;
@@ -80,12 +85,12 @@
     font-size: 18px;
 }
 
-#sign h3{
+#Signature h3{
     font-size:18px;
     text-align: right;
 }
 
-#sign h4{
+#Signature h4{
     text-align: right;
     font-size: 15px;
 }
@@ -102,4 +107,5 @@
     border-top: none;
     border-left:none ;
     border-right: none;
+    border-bottom: none;
 }
